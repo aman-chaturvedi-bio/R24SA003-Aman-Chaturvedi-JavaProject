@@ -1,0 +1,135 @@
+
+============================================================
+                 REVA National Bank
+============================================================
+1. Register Customer
+2. Open Bank Account
+3. View Accounts
+4. Deposit Money
+5. Withdraw Money
+6. Transfer Money
+7. View Transactions
+8. Interest / Service Charge
+9. System Statistics
+0. Exit
+Select an option: 
+ACCOUNT NUMBER TYPE       CUSTOMER             BALANCE
+------------------------------------------------------------
+SA1001       SAVINGS    Aman Chaturvedi      Rs.    15000.00
+CA2001       CURRENT    Rohan Mehta          Rs.    25000.00
+
+Press Enter to continue...
+
+============================================================
+                 REVA National Bank
+============================================================
+1. Register Customer
+2. Open Bank Account
+3. View Accounts
+4. Deposit Money
+5. Withdraw Money
+6. Transfer Money
+7. View Transactions
+8. Interest / Service Charge
+9. System Statistics
+0. Exit
+Select an option: Account number: Deposit amount: Deposit successful. New balance: Rs.15500.00
+
+Press Enter to continue...
+
+============================================================
+                 REVA National Bank
+============================================================
+1. Register Customer
+2. Open Bank Account
+3. View Accounts
+4. Deposit Money
+5. Withdraw Money
+6. Transfer Money
+7. View Transactions
+8. Interest / Service Charge
+9. System Statistics
+0. Exit
+Select an option: Account number: Withdrawal amount: Withdrawal successful. New balance: Rs.14500.00
+
+Press Enter to continue...
+
+============================================================
+                 REVA National Bank
+============================================================
+1. Register Customer
+2. Open Bank Account
+3. View Accounts
+4. Deposit Money
+5. Withdraw Money
+6. Transfer Money
+7. View Transactions
+8. Interest / Service Charge
+9. System Statistics
+0. Exit
+Select an option: From account: To account: Transfer amount: Transfer completed successfully.
+
+Press Enter to continue...
+
+============================================================
+                 REVA National Bank
+============================================================
+1. Register Customer
+2. Open Bank Account
+3. View Accounts
+4. Deposit Money
+5. Withdraw Money
+6. Transfer Money
+7. View Transactions
+8. Interest / Service Charge
+9. System Statistics
+0. Exit
+Select an option: Account number: 
+ID       TYPE         AMOUNT        TIME
+------------------------------------------------------------
+T1000    DEPOSIT      Rs.    500.00 25-09-2026 03:46    
+T1001    WITHDRAWAL   Rs.   1000.00 25-09-2026 03:46    
+T1002    WITHDRAWAL   Rs.   1500.00 25-09-2026 03:46    
+
+Press Enter to continue...
+
+============================================================
+                 REVA National Bank
+============================================================
+1. Register Customer
+2. Open Bank Account
+3. View Accounts
+4. Deposit Money
+5. Withdraw Money
+6. Transfer Money
+7. View Transactions
+8. Interest / Service Charge
+9. System Statistics
+0. Exit
+Select an option: 
+System Statistics
+-----------------
+Customers created : 2
+Accounts created  : 2
+Total balance     : Rs.39500.00
+Rounded balance   : Rs.39500
+Payable example   : Rs.1020.00
+Operator example  : 1000 + 2% of 1000 = 1020.0
+
+Press Enter to continue...
+
+============================================================
+                 REVA National Bank
+============================================================
+1. Register Customer
+2. Open Bank Account
+3. View Accounts
+4. Deposit Money
+5. Withdraw Money
+6. Transfer Money
+7. View Transactions
+8. Interest / Service Charge
+9. System Statistics
+0. Exit
+Select an option: 
+Thank you for using REVA National Bank.
