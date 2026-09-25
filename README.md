@@ -144,6 +144,9 @@ Account --> Transaction
 Account --> AccountType
 Transaction --> TransactionType
 ```
+## Data Flow Diagram
+
+![Bank Account Management System Data Flow Diagram](data-flow-diagram.png)
 
 ## 9. Frontend Decision
 
