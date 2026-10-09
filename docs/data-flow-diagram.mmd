@@ -1,0 +1,49 @@
+%% Editable Mermaid representation of the Bank Account Management System data flow.
+%% The exported diagram used in the README is ../data-flow-diagram.png.
+flowchart TB
+    customer([Customer])
+
+    registration[Customer Registration]
+    accountManagement[Account Management]
+    deposit[Deposit Money]
+    withdrawal[Withdraw Money]
+    transfer[Transfer Money]
+
+    customerRecords[(Customer Records)]
+    accountRecords[(Account Records)]
+    transactionManagement[Transaction Management]
+    transactionRecords[(Transaction Records)]
+
+    charges[Interest / Service Charge Processing]
+    accountDetails[Account Details / Balance]
+    transactionDetails[Transaction Details]
+    statistics[System Statistics]
+    administrator([Bank Administrator / System User])
+
+    customer --> registration
+    customer --> accountManagement
+    customer --> deposit
+    customer --> withdrawal
+    customer --> transfer
+
+    registration --> customerRecords
+    accountManagement --> accountRecords
+
+    deposit --> accountRecords
+    deposit --> transactionManagement
+    withdrawal --> accountRecords
+    withdrawal --> transactionManagement
+    transfer --> accountRecords
+    transfer --> transactionManagement
+
+    transactionManagement --> transactionRecords
+    accountRecords <--> charges
+    accountRecords --> accountDetails
+    accountDetails --> customer
+    transactionRecords --> transactionDetails
+    transactionDetails --> customer
+
+    customerRecords --> statistics
+    accountRecords --> statistics
+    transactionRecords --> statistics
+    statistics --> administrator
